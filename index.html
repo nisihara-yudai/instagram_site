@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>タイムライン</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.js"></script>
+
+        <script>
+            $(document).ready(function(){
+              $('.slider').bxSlider({
+                  auto: true,
+              });
+            });
+        </script>
+          
+    </head>
+    <body>
+        <article>
+            <div id="wrap">
+                <header>
+                    <div class="picture"><img src="images/smile.jpg" class="child" alt=""></div>
+                    <h1 class="name">sada_escape<br>中華そば きなり</h1>
+                    <div class="menu">...</div>
+                </header>
+                <div class="draw_picture">
+                    <div class="slider">
+                        <div>
+                            <img src="images/ra-men_1.jpg" class="ra-men" alt="">
+                        </div>
+                        <div>
+                            <img src="images/ra-men_2.jpg" class="ra-men" alt="">
+                        </div>
+                        <div>
+                            <img src="images/ra-men_3.jpg" class="ra-men" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="admire">
+                    <p class="hyouka">
+                        ニッシーの他、〇〇人が「いいね！」を押しました。<br>〇〇人がこの投稿を見ています。
+                    </p>
+                    <p class="heart">♡<br>♡</p>
+                </div>
+                <div class="responsive">
+                    <div class="comment"><span class="smile">☺️</span>コメントを追加...</div>
+                    <div class="toukou">投稿する</div>
+                </div>
+                <footer>
+                    <h2 class="innyou">写真は引用させていただきました。</h2>
+                    <div class="url">
+                        https://be-story.jp/article/3558<br>
+                        https://www.jalan.net/gourmet/grm_foomoojH000157042/?screenId=OUW1701&influxKbn=0
+                    </div>
+                </footer>
+                
+                    
+            </div>
+        </article>
+    </body>
+</html>
